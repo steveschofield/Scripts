@@ -1,0 +1,15 @@
+<?xml version=”1.0″ encoding=”UTF-8″?>
+<Configuration>
+  <Properties>
+    <vCenterServer>vCenterName</vCenterServer>
+    <smtpServer>mail.example.com</smtpServer>
+    <MailFrom>adminAccount@example.com</MailFrom>
+    <MailTo1>user1@example.com</MailTo1>
+    <MailTo2>group1@example.com</MailTo2>
+    <MailCC>user2@example.com</MailCC>
+    <Datacenter>DataCenterName</Datacenter>
+    <DisconnectFlag>1</DisconnectFlag>
+    <Output>C:\Scripts\Disconnect-CDRom\Logs\Disconnect-CDRom</Output>
+    <OutputErrors>C:\Scripts\Disconnect-CDRom\Logs\Disconnect-CDRomErrors</OutputErrors>
+  </Properties>
+</Configuration>
