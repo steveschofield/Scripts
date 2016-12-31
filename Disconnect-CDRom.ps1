@@ -28,7 +28,7 @@ $DisconnectFlag = $Properties.Configuration.Properties.DisconnectFlag
 $Output=$Properties.Configuration.Properties.Output
 $OutputErrors=$Properties.Configuration.Properties.OutputErrors
 
-#Assuming you are running PowerCLI 6.x
+##Assuming you are running PowerCLI 6.x
 Import-Module VMware.VimAutomation.Vds
 
 function Log([string]$path, [string]$value)
